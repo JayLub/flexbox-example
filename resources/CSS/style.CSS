@@ -3,42 +3,22 @@ Html {
 	font-family: Helvetica;
 }
 
-.header, h4{
-	background-image: url(../Images/the-flatiron-building.png);
+div {
+  display: flex;
+  justify-content:center;
 }
 
-h1{
-	font-size: 70px;
-	
+.container {
+  display: flex;
+  flex-flow: row no-wrap;
+  background-color:yellow;
+  width: 1024px;
 }
 
-h2 {
-	font-size: 32px;
-}
-
-h3, h4 {
-	font-size: 23px;
-}
-
-.process p {
-	font-size: 14px;
-}
-h4, h1, .footer, a {
-	color: white;
-}
-
-
-li {
-	list-style-type: none;
-	font-size: 18px;
-}
-
-a {
-	font-weight: bold;
-}
-
-.footer {
-	background-color: grey;
-	font-size: 11px;
-	text-align: left;
+.item {
+  list-style: none;
+  background-color:rebeccapurple;
+  margin-right: 30px;
+  width:200px;
+  text-align: center;
 }
